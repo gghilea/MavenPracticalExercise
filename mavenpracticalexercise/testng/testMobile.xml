@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" verbose="1">
+	<parameter name="app"
+		value="http://www.softvision.com/" />
+	<parameter name="platform" value="mobile" />
+	<test name="testdemoxml">
+		<classes>
+			<class name="test.sv.ContactPageLoadedTest" />
+		</classes>
+	</test>
+</suite>

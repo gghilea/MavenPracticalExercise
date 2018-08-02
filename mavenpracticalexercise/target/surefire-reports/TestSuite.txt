@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 14.764 sec <<< FAILURE!
+methodCreateUserTest(api.CreateUserTest)  Time elapsed: 0.647 sec  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [201]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at api.CreateUserTest.methodCreateUserTest(CreateUserTest.java:28)
+
+methodCreateUserTest(api.CreateUserTest)  Time elapsed: 0.341 sec  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [201]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at api.CreateUserTest.methodCreateUserTest(CreateUserTest.java:28)
+
+methodCreateUserTest(api.CreateUserTest)  Time elapsed: 0.545 sec  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [201]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at api.CreateUserTest.methodCreateUserTest(CreateUserTest.java:28)
+
+methodCreateUserTest(api.CreateUserTest)  Time elapsed: 0.524 sec  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [201]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at api.CreateUserTest.methodCreateUserTest(CreateUserTest.java:28)
+

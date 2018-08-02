@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8663" started-at="2018-08-02T13:37:18Z" finished-at="2018-08-02T13:37:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8663" started-at="2018-08-02T13:37:18Z" finished-at="2018-08-02T13:37:26Z">
+      <class name="test.demoqa.DemoTabsTest">
+        <test-method status="PASS" signature="initBeforeC()[pri:0, instance:test.demoqa.DemoTabsTest@73ad2d6]" name="initBeforeC" is-config="true" duration-ms="3650" started-at="2018-08-02T13:37:18Z" finished-at="2018-08-02T13:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBeforeC -->
+        <test-method status="PASS" signature="tabsPageLoaded()[pri:0, instance:test.demoqa.DemoTabsTest@73ad2d6]" name="tabsPageLoaded" duration-ms="4346" started-at="2018-08-02T13:37:21Z" finished-at="2018-08-02T13:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabsPageLoaded -->
+        <test-method status="PASS" signature="tearDownAfterC()[pri:0, instance:test.demoqa.DemoTabsTest@73ad2d6]" name="tearDownAfterC" is-config="true" duration-ms="653" started-at="2018-08-02T13:37:26Z" finished-at="2018-08-02T13:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterC -->
+      </class> <!-- test.demoqa.DemoTabsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

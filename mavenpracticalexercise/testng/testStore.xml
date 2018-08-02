@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" verbose="1">
+	<parameter name="app"
+		value="http://automationpractice.com/index.php" />
+	<parameter name="platform" value="desktop" />
+	<test name="testdemoxml">
+		<classes>
+			<class name="test.automationpractice.HomePageTest" />
+			<class name="test.automationpractice.LoginInvalidTest" />
+			<class name="test.automationpractice.LoginTest" />
+		</classes>
+	</test>
+</suite>

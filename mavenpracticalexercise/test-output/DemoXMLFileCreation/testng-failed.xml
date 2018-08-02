@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DemoXMLFileCreation]">
+  <test name="demoxml(failed)">
+    <classes>
+      <class name="test.automationpractice.LoginInvalidTest">
+        <methods>
+          <include name="initBeforeC"/>
+          <include name="tearDownAfterC"/>
+        </methods>
+      </class> <!-- test.automationpractice.LoginInvalidTest -->
+      <class name="test.automationpractice.LoginTest">
+        <methods>
+          <include name="loginInvalidCredentialsTest"/>
+          <include name="initBeforeC"/>
+          <include name="tearDownAfterC"/>
+        </methods>
+      </class> <!-- test.automationpractice.LoginTest -->
+      <class name="test.automationpractice.HomePageTest">
+        <methods>
+          <include name="initBeforeC"/>
+          <include name="tearDownAfterC"/>
+        </methods>
+      </class> <!-- test.automationpractice.HomePageTest -->
+    </classes>
+  </test> <!-- demoxml(failed) -->
+</suite> <!-- Failed suite [DemoXMLFileCreation] -->
